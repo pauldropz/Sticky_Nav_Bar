@@ -11,3 +11,9 @@
     background-position: center;
     background-size: cover;
 }
+
+
+nav {
+    width: 100%;
+    padding: 20rem 60rem;
+}
