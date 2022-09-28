@@ -32,11 +32,10 @@ nav ul {
 }
 
 
-
 nav ul li {
         display: inline-block;
         list-style: none;
-        margin: 1.25rem 0;
+        margin: 2.25rem 3rem;
         color: #fff;
 
 
