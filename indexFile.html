@@ -10,9 +10,9 @@
 <body>
     <div class="header">
          
-            <nav>
+            <nav id="navBar">
                 <img src="images/Daco_5935520.png" class="logo">
-                    <ul>
+                    <ul id="menuBar">
                         <li>HOME</li>
                         <li>ABOUT</li>
                         <li>SERVICES</li>
@@ -89,6 +89,19 @@
     </p>
 
 
-    <script src="action.js"></script>
+    <script>
+        var navBar = document.getElementById ("navBar");
+        var menuBar = document.getElementById ("menuBar");
+
+        window.onscroll = function () {
+            if (window.pageYOffset >= menu.offsetTop) {
+                navBar.classList.add ("sticky");
+            }
+            else {
+                navBar.classList.remove("sticky");
+            }
+        }
+
+    </script>
 </body>
 </html>
